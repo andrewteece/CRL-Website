@@ -1,0 +1,55 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+
+/* CSS CUSTOM PROPERTIES */
+
+:root {
+  --ff-primary: 'Montserrat', sans-serif;
+  --ff-secondary: 'Oswald', sans-serif;
+
+  --fw-regular: 400;
+  --fw-semiBold: 500;
+  --fw-bold: 700;
+
+  --fs-400: 1rem;
+  --fs-500: 1.125rem;
+  --fs-600: 1.5rem;
+  --fs-700: 1.875rem;
+  --fs-800: 2.25rem;
+  --fw-900: 5.625rem;
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+
+  --clr-accent-400: hsl(40, 20%, 56%);
+  --clr-accent-500: hsl(225, 7%, 47%);
+  --clr-accent-700: hsl(226, 15%, 27%);
+  --clr-accent-800: hsl(226, 16%, 21%);
+}
+
+/* CSS RESET */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
