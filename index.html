@@ -9,39 +9,48 @@
   <body>
     <!-- Header & Nav -->
     <header>
-      <a href="#">
-        <img src="img/logo.svg" alt="conquering responsive layouts" />
-      </a>
-      <nav>
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-          <li>
-            <a href="#">Sign in</a>
-          </li>
-          <li>
-            <a href="#">Sign up</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="wrapper">
+        <button class="nav--toggle" type="button" aria-label="Open Navigation">
+          <span class="hamburger"></span>
+        </button>
+        <a href="#">
+          <img src="img/logo.svg" alt="conquering responsive layouts" />
+        </a>
+        <nav class="nav">
+          <ul class="nav_list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">Sign in</a>
+            </li>
+            <li>
+              <a href="#">Sign up</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!-- Hero -->
-    <section class="bg-dark">
+    <section class="bg-dark hero">
       <div class="wrapper">
-        <h1>Responsive layouts <span>don't have to be a struggle</span></h1>
-        <p>
+        <h1 class="hero__title">
+          Responsive layouts <span>don't have to be a struggle</span>
+        </h1>
+        <p class="hero__text">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, iusto!
           Consequatur aliquam eius tenetur. Obcaecati tenetur consequatur iusto
           ut, est dolorem cumque praesentium odio velit.
         </p>
-        <a href="#">I want to learn</a>
+        <div class="hero__btn">
+          <a class="btn" href="#">I want to learn</a>
+        </div>
       </div>
     </section>
     <!-- Main Content -->
@@ -69,7 +78,7 @@
         </div>
       </section>
       <section class="section-two">
-        <div>
+        <div class="wrapper">
           <h2 class="section__two--title">It doesn't have to be so hard</h2>
           <p class="section__two--text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
