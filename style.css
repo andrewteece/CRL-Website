@@ -339,3 +339,26 @@ footer a:focus {
   border-bottom: 2px solid var(--clr-neutral-100);
   transition: all 400ms ease-in-out;
 }
+
+@media (min-width: 1000px) {
+  .hero__title {
+    font-size: var(--fs-900);
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .col + .col {
+    margin-left: 6em;
+  }
+
+  section {
+    padding: 7em 0em 5em 0em;
+  }
+}
