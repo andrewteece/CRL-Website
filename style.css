@@ -381,7 +381,14 @@ footer a:focus {
 
   .nav__list {
     display: flex;
-    margin: 0;
+    justify-content: space-between;
+    margin-right: 1.5em;
+  }
+
+  .nav__item {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 0 0 0 3em;
   }
 
   .logo {
@@ -406,6 +413,12 @@ footer a:focus {
 
   section {
     padding: 7em 1em 5em 1em;
+  }
+
+  .hero__text {
+    margin-top: 7em;
+    margin-left: 5em;
+    text-align: left;
   }
 
   .section__two {
