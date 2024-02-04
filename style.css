@@ -139,6 +139,7 @@ header {
 
 .logo {
   height: 30px;
+  align-items: center;
 }
 
 .nav {
@@ -343,16 +344,19 @@ header {
   font-size: var(--fs-550);
   color: var(--clr-accent-400);
   padding-bottom: 1em;
+  text-align: center;
 }
 
 .footer__text {
   color: var(--clr-accent-450);
-  padding-inline: 2em;
+  width: 45ch;
   padding-bottom: 2em;
+  text-align: center;
 }
 
 footer li {
   padding-block: 0.5em;
+  text-align: center;
 }
 
 footer a {
@@ -377,6 +381,7 @@ footer a:focus {
     justify-content: flex-end;
     height: auto;
     position: relative;
+    padding: 0 1em;
   }
 
   .nav__list {
@@ -393,6 +398,7 @@ footer a:focus {
 
   .logo {
     display: flex;
+    padding-left: 1em;
   }
   .hero__title {
     font-size: var(--fs-900);
@@ -415,9 +421,13 @@ footer a:focus {
     padding: 7em 1em 5em 1em;
   }
 
+  .hero__title {
+    text-align: left;
+  }
+
   .hero__text {
     margin-top: 7em;
-    margin-left: 5em;
+    margin-left: 2emm;
     text-align: left;
   }
 
@@ -434,11 +444,23 @@ footer a:focus {
     flex-direction: column;
   }
 
+  .footer__subtitle {
+    text-align: left;
+  }
+
+  .footer__text {
+    text-align: left;
+  }
+
+  footer li {
+    text-align: left;
+  }
+
   .flex-footer {
-    width: 40%;
+    width: 55%;
   }
 
   .flex-footer2 {
-    width: 20%;
+    width: 15%;
   }
 }
