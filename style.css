@@ -367,6 +367,26 @@ footer a:focus {
 }
 
 @media (min-width: 1000px) {
+  .nav--toggle {
+    display: none;
+  }
+
+  .nav {
+    visibility: visible;
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+    position: relative;
+  }
+
+  .nav__list {
+    display: flex;
+    margin: 0;
+  }
+
+  .logo {
+    display: flex;
+  }
   .hero__title {
     font-size: var(--fs-900);
   }
@@ -399,5 +419,13 @@ footer a:focus {
   .card-section {
     display: flex;
     flex-direction: column;
+  }
+
+  .flex-footer {
+    width: 40%;
+  }
+
+  .flex-footer2 {
+    width: 20%;
   }
 }
