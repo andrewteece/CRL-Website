@@ -10,8 +10,44 @@
     <!-- Header & Nav -->
     <header>
       <div class="wrapper">
-        <button class="nav--toggle" type="button" aria-label="Open Navigation">
+        <!--<button class="nav--toggle" type="button" aria-label="Open Navigation">
           <span class="hamburger"></span>
+        </button>-->
+        <button
+          class="nav--toggle"
+          type="button"
+          aria-controls="navigation"
+          aria-expanded="false"
+        >
+          <svg
+            stroke="var(--nav-toggle)"
+            class="hamburger"
+            viewBox="0 0 100 100"
+            width="45"
+          >
+            <line
+              class="line top"
+              x1="90"
+              x2="10"
+              y1="40"
+              y2="40"
+              stroke-width="10"
+              stroke-linecap="round"
+              stroke-dasharray="80"
+              stroke-dashoffset="0"
+            ></line>
+            <line
+              class="line bottom"
+              x1="10"
+              x2="90"
+              y1="60"
+              y2="60"
+              stroke-width="10"
+              stroke-linecap="round"
+              stroke-dasharray="80"
+              stroke-dashoffset="0"
+            ></line>
+          </svg>
         </button>
         <a href="#">
           <img
@@ -89,72 +125,76 @@
           </div>
         </div>
       </section>
-      <section class="section-two">
-        <div class="wrapper">
-          <h2 class="section__two--title">It doesn't have to be so hard</h2>
-          <p class="section__two--text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            unde in, voluptas architecto totam fugit nulla laborum optio
-            officiis eaque magnam libero similique eum ratione ullam quam
-            recusandae minima. Quos perspiciatis animi modi quam, sed sit
-            aperiam expedita tenetur provident!
-          </p>
-          <img
-            class="section__two--img"
-            src="img/image-01.jpeg"
-            alt="website sketches"
-          />
-          <p class="section__two--text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Repudiandae est accusantium tenetur. Accusantium sunt debitis
-            voluptas minima dignissimos temporibus voluptates omnis, saepe
-            voluptatibus, veniam corporis nobis. Molestias qui recusandae velit
-            asperiores cum quia quos repellendus aliquid non. Libero, atque
-            quidem.
-          </p>
-        </div>
-      </section>
-      <section class="section-three">
-        <div class="wrapper card-section">
-          <div class="card bg-dark">
-            <h2 class="card__title">Break it down</h2>
-            <p class="card__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-              totam, eveniet eos, possimus, id ipsum esse alias veniam eligendi
-              nihil doloremque repellendus. Corrupti, aperiam dignissimos.
+      <div class="wrapper row">
+        <section class="section__two">
+          <div class="wrapper">
+            <h2 class="section__two--title">It doesn't have to be so hard</h2>
+            <p class="section__two--text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis unde in, voluptas architecto totam fugit nulla laborum
+              optio officiis eaque magnam libero similique eum ratione ullam
+              quam recusandae minima. Quos perspiciatis animi modi quam, sed sit
+              aperiam expedita tenetur provident!
+            </p>
+            <img
+              class="section__two--img"
+              src="img/image-01.jpeg"
+              alt="website sketches"
+            />
+            <p class="section__two--text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Repudiandae est accusantium tenetur. Accusantium sunt debitis
+              voluptas minima dignissimos temporibus voluptates omnis, saepe
+              voluptatibus, veniam corporis nobis. Molestias qui recusandae
+              velit asperiores cum quia quos repellendus aliquid non. Libero,
+              atque quidem.
             </p>
           </div>
-          <div class="card bg-dark">
-            <h2 class="card__title">Work you way up</h2>
-            <p class="card__text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Molestiae earum labore voluptatibus tempore delectus quod soluta
-              voluptate architecto enim ipsum, vitae dolorum quos ex quaerat?
-            </p>
+        </section>
+        <section class="section__three">
+          <div class="wrapper card-section">
+            <div class="card bg-dark">
+              <h2 class="card__title">Break it down</h2>
+              <p class="card__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                totam, eveniet eos, possimus, id ipsum esse alias veniam
+                eligendi nihil doloremque repellendus. Corrupti, aperiam
+                dignissimos.
+              </p>
+            </div>
+            <div class="card bg-dark">
+              <h2 class="card__title">Work you way up</h2>
+              <p class="card__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Molestiae earum labore voluptatibus tempore delectus quod soluta
+                voluptate architecto enim ipsum, vitae dolorum quos ex quaerat?
+              </p>
+            </div>
+            <div class="card bg-dark">
+              <h2 class="card__title">Smash it</h2>
+              <p class="card__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Veritatis assumenda pariatur ipsa delectus nam, cum reiciendis
+                voluptates, aspernatur vel nemo doloremque error corporis sint
+                eveniet!
+              </p>
+            </div>
           </div>
-          <div class="card bg-dark">
-            <h2 class="card__title">Smash it</h2>
-            <p class="card__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-              assumenda pariatur ipsa delectus nam, cum reiciendis voluptates,
-              aspernatur vel nemo doloremque error corporis sint eveniet!
-            </p>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
       <!-- Footer -->
       <footer class="bg-dark">
         <h2 class="footer__title">just scratching the surface</h2>
-        <div class="text-align">
-          <h3 class="footer__subtitle">About our company</h3>
-          <p class="footer__text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
-            modi amet sit dicta blanditiis qui dolor ex ducimus exercitationem
-            natus?
-          </p>
-        </div>
-        <div class="text-align">
-          <div class="flow-bottom">
+        <div class="row">
+          <div class="text-align col">
+            <h3 class="footer__subtitle">About our company</h3>
+            <p class="footer__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
+              modi amet sit dicta blanditiis qui dolor ex ducimus exercitationem
+              natus?
+            </p>
+          </div>
+          <div class="flow-bottom text-align col">
             <h3 class="footer__subtitle">Getting around</h3>
             <ul>
               <li>
@@ -168,7 +208,7 @@
               </li>
             </ul>
           </div>
-          <div class="flow-bottom">
+          <div class="flow-bottom text-align col">
             <h3 class="footer__subtitle">Other things</h3>
             <ul>
               <li>
@@ -185,7 +225,7 @@
               </li>
             </ul>
           </div>
-          <div class="flow-bottom">
+          <div class="flow-bottom text-align col">
             <h3 class="footer__subtitle">And more</h3>
             <ul>
               <li>
@@ -205,6 +245,6 @@
         </div>
       </footer>
     </main>
-    <script src="script.js"></script>
+    <script src="script2.js"></script>
   </body>
 </html>
