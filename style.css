@@ -349,7 +349,7 @@ header {
 
 .footer__text {
   color: var(--clr-accent-450);
-  width: 45ch;
+  padding-inline: 2em;
   padding-bottom: 2em;
   text-align: center;
 }
@@ -450,6 +450,7 @@ footer a:focus {
 
   .footer__text {
     text-align: left;
+    padding-inline: 0em;
   }
 
   footer li {
